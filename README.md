@@ -1,4 +1,4 @@
-## Refactor of old ssp-ui
+## A Framework Like Webpack-Mithril-Bootstrap-Boilerplate
 
 We use mithril,webpack and material design lite for our architecture 
 
