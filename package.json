@@ -1,0 +1,51 @@
+{
+  "name": "wmbb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.min.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "mithril": "^0.2.2-rc.1",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "css-loader": "^0.20.2",
+    "cz-conventional-changelog": "^1.1.5",
+    "exports-loader": "^0.6.2",
+    "file-loader": "^0.8.4",
+    "msx-loader": "^0.2.0",
+    "url-loader": "^0.5.6",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.13.0",
+    "svg-loader": "0.0.2",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --progress --colors",
+    "build": "webpack --progress --colors -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dayuoba/wmbb.git"
+  },
+  "keywords": [
+    "mithril",
+    "webpack"
+  ],
+  "author": "dayuoba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayuoba/wmbb/issues"
+  },
+  "homepage": "https://github.com/dayuoba/wmbb",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
